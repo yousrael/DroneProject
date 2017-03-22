@@ -1,4 +1,4 @@
-package objects;
+package com.example.yousra.objects;
 
 /**
  * Created by yousra on 15/02/17.
@@ -8,10 +8,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class PositionDrone {
+public class Drone {
 
     private String id;
-    private List<Integer> position = null;
+    private List<Double> position = null;
     private String dated;
     private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
@@ -23,11 +23,11 @@ public class PositionDrone {
         this.id = id;
     }
 
-    public List<Integer> getPosition() {
+    public List<Double> getPosition() {
         return position;
     }
 
-    public void setPosition(List<Integer> position) {
+    public void setPosition(List<Double> position) {
         this.position = position;
     }
 
