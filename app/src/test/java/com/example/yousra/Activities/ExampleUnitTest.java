@@ -1,4 +1,4 @@
-package com.example.yousra.droneproject;
+package com.example.yousra.Activities;
 
 import org.junit.Test;
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.yousra.droneproject">
+    package="com.example.yousra.Activities">
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -36,7 +36,7 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".Main2Activity">
+        <activity android:name="com.example.yousra.Activities.Main2Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
